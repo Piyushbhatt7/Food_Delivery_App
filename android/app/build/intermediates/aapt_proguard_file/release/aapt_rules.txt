@@ -1,0 +1,19 @@
+-keep class android.app.Application { <init>(); }
+-keep class androidx.core.app.CoreComponentFactory { <init>(); }
+-keep class androidx.credentials.playservices.CredentialProviderMetadataHolder { <init>(); }
+-keep class androidx.credentials.playservices.HiddenActivity { <init>(); }
+-keep class androidx.profileinstaller.ProfileInstallReceiver { <init>(); }
+-keep class androidx.startup.InitializationProvider { <init>(); }
+-keep class com.example.food_delivery.MainActivity { <init>(); }
+-keep class com.google.android.gms.auth.api.signin.RevocationBoundService { <init>(); }
+-keep class com.google.android.gms.auth.api.signin.internal.SignInHubActivity { <init>(); }
+-keep class com.google.android.gms.common.api.GoogleApiActivity { <init>(); }
+-keep class com.google.android.gms.measurement.AppMeasurementJobService { <init>(); }
+-keep class com.google.android.gms.measurement.AppMeasurementReceiver { <init>(); }
+-keep class com.google.android.gms.measurement.AppMeasurementService { <init>(); }
+-keep class com.google.firebase.auth.internal.GenericIdpActivity { <init>(); }
+-keep class com.google.firebase.auth.internal.RecaptchaActivity { <init>(); }
+-keep class com.google.firebase.components.ComponentDiscoveryService { <init>(); }
+-keep class com.google.firebase.provider.FirebaseInitProvider { <init>(); }
+-keep class androidx.browser.browseractions.BrowserActionsFallbackMenuView { <init>(android.content.Context, android.util.AttributeSet); }
+
