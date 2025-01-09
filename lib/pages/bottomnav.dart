@@ -74,8 +74,7 @@ class _BottomNavState extends State<BottomNav> {
           color: Colors.white,
         ),
 
-       
-        
+      
       ]),
    
     body: pages[currentTabIndex],
